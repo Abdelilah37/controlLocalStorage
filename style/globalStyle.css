@@ -1,0 +1,31 @@
+.header{
+  display: flex;
+ justify-content: space-between;
+ padding: 7px 10px;
+ background:linear-gradient(rgba(255,0,0,0.4),blue,rgba(255,0,0,0.4));
+ border-bottom-left-radius: 15%;
+ border-bottom-right-radius: 15%;
+}
+.header a{
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+
+}
+.header a h1{
+  margin-top: 5px !important;
+}
+.header a img {
+  width: 40px;
+  margin-right:4px;
+  border-radius: 50%;
+}
+.header .navbare{
+  margin-top: 17px !important;
+}
+.header .navbare a{
+  display: inline;
+  margin-right: 7px;
+  text-decoration: none !important;
+  color: #ffffff;
+}
